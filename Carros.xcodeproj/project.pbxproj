@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2028B916DA6A94796DF65749 /* libPods-Carros.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64BC48E7AB105B11C7B83989 /* libPods-Carros.a */; };
+		3118CE1A1CF0E3630055159D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3118CE191CF0E3630055159D /* AppDelegate.swift */; };
+		3118CE1C1CF0E3630055159D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3118CE1B1CF0E3630055159D /* ViewController.swift */; };
+		3118CE1F1CF0E3640055159D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3118CE1D1CF0E3640055159D /* Main.storyboard */; };
+		3118CE211CF0E3640055159D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3118CE201CF0E3640055159D /* Assets.xcassets */; };
+		3118CE241CF0E3640055159D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3118CE221CF0E3640055159D /* LaunchScreen.storyboard */; };
+		3118CE2F1CF0E3640055159D /* CarrosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3118CE2E1CF0E3640055159D /* CarrosTests.swift */; };
+		3118CE3A1CF0E3640055159D /* CarrosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3118CE391CF0E3640055159D /* CarrosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3118CE2B1CF0E3640055159D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3118CE0E1CF0E3630055159D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3118CE151CF0E3630055159D;
+			remoteInfo = Carros;
+		};
+		3118CE361CF0E3640055159D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3118CE0E1CF0E3630055159D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3118CE151CF0E3630055159D;
+			remoteInfo = Carros;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3118CE161CF0E3630055159D /* Carros.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carros.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3118CE191CF0E3630055159D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3118CE1B1CF0E3630055159D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3118CE1E1CF0E3640055159D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3118CE201CF0E3640055159D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3118CE231CF0E3640055159D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3118CE251CF0E3640055159D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3118CE2A1CF0E3640055159D /* CarrosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3118CE2E1CF0E3640055159D /* CarrosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosTests.swift; sourceTree = "<group>"; };
+		3118CE301CF0E3640055159D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3118CE351CF0E3640055159D /* CarrosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3118CE391CF0E3640055159D /* CarrosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrosUITests.swift; sourceTree = "<group>"; };
+		3118CE3B1CF0E3640055159D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EFA9DFF4308F8F8846D7342 /* Pods-Carros.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carros.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Carros/Pods-Carros.debug.xcconfig"; sourceTree = "<group>"; };
+		5B53303AED3544405FAA2857 /* Pods-Carros.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Carros.release.xcconfig"; path = "Pods/Target Support Files/Pods-Carros/Pods-Carros.release.xcconfig"; sourceTree = "<group>"; };
+		64BC48E7AB105B11C7B83989 /* libPods-Carros.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Carros.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3118CE131CF0E3630055159D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2028B916DA6A94796DF65749 /* libPods-Carros.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3118CE271CF0E3640055159D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3118CE321CF0E3640055159D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B3490D5D79BAE4C3349662 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EFA9DFF4308F8F8846D7342 /* Pods-Carros.debug.xcconfig */,
+				5B53303AED3544405FAA2857 /* Pods-Carros.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3118CE0D1CF0E3630055159D = {
+			isa = PBXGroup;
+			children = (
+				3118CE181CF0E3630055159D /* Carros */,
+				3118CE2D1CF0E3640055159D /* CarrosTests */,
+				3118CE381CF0E3640055159D /* CarrosUITests */,
+				3118CE171CF0E3630055159D /* Products */,
+				09B3490D5D79BAE4C3349662 /* Pods */,
+				965A24635D987E73E31DD631 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3118CE171CF0E3630055159D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3118CE161CF0E3630055159D /* Carros.app */,
+				3118CE2A1CF0E3640055159D /* CarrosTests.xctest */,
+				3118CE351CF0E3640055159D /* CarrosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3118CE181CF0E3630055159D /* Carros */ = {
+			isa = PBXGroup;
+			children = (
+				3118CE191CF0E3630055159D /* AppDelegate.swift */,
+				3118CE1B1CF0E3630055159D /* ViewController.swift */,
+				3118CE1D1CF0E3640055159D /* Main.storyboard */,
+				3118CE201CF0E3640055159D /* Assets.xcassets */,
+				3118CE221CF0E3640055159D /* LaunchScreen.storyboard */,
+				3118CE251CF0E3640055159D /* Info.plist */,
+			);
+			path = Carros;
+			sourceTree = "<group>";
+		};
+		3118CE2D1CF0E3640055159D /* CarrosTests */ = {
+			isa = PBXGroup;
+			children = (
+				3118CE2E1CF0E3640055159D /* CarrosTests.swift */,
+				3118CE301CF0E3640055159D /* Info.plist */,
+			);
+			path = CarrosTests;
+			sourceTree = "<group>";
+		};
+		3118CE381CF0E3640055159D /* CarrosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3118CE391CF0E3640055159D /* CarrosUITests.swift */,
+				3118CE3B1CF0E3640055159D /* Info.plist */,
+			);
+			path = CarrosUITests;
+			sourceTree = "<group>";
+		};
+		965A24635D987E73E31DD631 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64BC48E7AB105B11C7B83989 /* libPods-Carros.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3118CE151CF0E3630055159D /* Carros */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3118CE3E1CF0E3640055159D /* Build configuration list for PBXNativeTarget "Carros" */;
+			buildPhases = (
+				EE6D8E62F32A427A1BEF9595 /* 📦 Check Pods Manifest.lock */,
+				3118CE121CF0E3630055159D /* Sources */,
+				3118CE131CF0E3630055159D /* Frameworks */,
+				3118CE141CF0E3630055159D /* Resources */,
+				7104ABA1A4720CF216D1A06F /* 📦 Embed Pods Frameworks */,
+				B72B4BFB9B98A9074FD2EBDA /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carros;
+			productName = Carros;
+			productReference = 3118CE161CF0E3630055159D /* Carros.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3118CE291CF0E3640055159D /* CarrosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3118CE411CF0E3640055159D /* Build configuration list for PBXNativeTarget "CarrosTests" */;
+			buildPhases = (
+				3118CE261CF0E3640055159D /* Sources */,
+				3118CE271CF0E3640055159D /* Frameworks */,
+				3118CE281CF0E3640055159D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3118CE2C1CF0E3640055159D /* PBXTargetDependency */,
+			);
+			name = CarrosTests;
+			productName = CarrosTests;
+			productReference = 3118CE2A1CF0E3640055159D /* CarrosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3118CE341CF0E3640055159D /* CarrosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3118CE441CF0E3640055159D /* Build configuration list for PBXNativeTarget "CarrosUITests" */;
+			buildPhases = (
+				3118CE311CF0E3640055159D /* Sources */,
+				3118CE321CF0E3640055159D /* Frameworks */,
+				3118CE331CF0E3640055159D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3118CE371CF0E3640055159D /* PBXTargetDependency */,
+			);
+			name = CarrosUITests;
+			productName = CarrosUITests;
+			productReference = 3118CE351CF0E3640055159D /* CarrosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3118CE0E1CF0E3630055159D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Miguel Cuellar";
+				TargetAttributes = {
+					3118CE151CF0E3630055159D = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					3118CE291CF0E3640055159D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3118CE151CF0E3630055159D;
+					};
+					3118CE341CF0E3640055159D = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 3118CE151CF0E3630055159D;
+					};
+				};
+			};
+			buildConfigurationList = 3118CE111CF0E3630055159D /* Build configuration list for PBXProject "Carros" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3118CE0D1CF0E3630055159D;
+			productRefGroup = 3118CE171CF0E3630055159D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3118CE151CF0E3630055159D /* Carros */,
+				3118CE291CF0E3640055159D /* CarrosTests */,
+				3118CE341CF0E3640055159D /* CarrosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3118CE141CF0E3630055159D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3118CE241CF0E3640055159D /* LaunchScreen.storyboard in Resources */,
+				3118CE211CF0E3640055159D /* Assets.xcassets in Resources */,
+				3118CE1F1CF0E3640055159D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3118CE281CF0E3640055159D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3118CE331CF0E3640055159D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7104ABA1A4720CF216D1A06F /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Carros/Pods-Carros-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B72B4BFB9B98A9074FD2EBDA /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Carros/Pods-Carros-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE6D8E62F32A427A1BEF9595 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3118CE121CF0E3630055159D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3118CE1C1CF0E3630055159D /* ViewController.swift in Sources */,
+				3118CE1A1CF0E3630055159D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3118CE261CF0E3640055159D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3118CE2F1CF0E3640055159D /* CarrosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3118CE311CF0E3640055159D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3118CE3A1CF0E3640055159D /* CarrosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3118CE2C1CF0E3640055159D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3118CE151CF0E3630055159D /* Carros */;
+			targetProxy = 3118CE2B1CF0E3640055159D /* PBXContainerItemProxy */;
+		};
+		3118CE371CF0E3640055159D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3118CE151CF0E3630055159D /* Carros */;
+			targetProxy = 3118CE361CF0E3640055159D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3118CE1D1CF0E3640055159D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3118CE1E1CF0E3640055159D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3118CE221CF0E3640055159D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3118CE231CF0E3640055159D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3118CE3C1CF0E3640055159D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3118CE3D1CF0E3640055159D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3118CE3F1CF0E3640055159D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EFA9DFF4308F8F8846D7342 /* Pods-Carros.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Carros/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MC.Carros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${Carros}/ObjCBridge.h.";
+			};
+			name = Debug;
+		};
+		3118CE401CF0E3640055159D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B53303AED3544405FAA2857 /* Pods-Carros.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Carros/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MC.Carros;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "${Carros}/ObjCBridge.h.";
+			};
+			name = Release;
+		};
+		3118CE421CF0E3640055159D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarrosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MC.CarrosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carros.app/Carros";
+			};
+			name = Debug;
+		};
+		3118CE431CF0E3640055159D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarrosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MC.CarrosTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carros.app/Carros";
+			};
+			name = Release;
+		};
+		3118CE451CF0E3640055159D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarrosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MC.CarrosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Carros;
+			};
+			name = Debug;
+		};
+		3118CE461CF0E3640055159D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CarrosUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MC.CarrosUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Carros;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3118CE111CF0E3630055159D /* Build configuration list for PBXProject "Carros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3118CE3C1CF0E3640055159D /* Debug */,
+				3118CE3D1CF0E3640055159D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3118CE3E1CF0E3640055159D /* Build configuration list for PBXNativeTarget "Carros" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3118CE3F1CF0E3640055159D /* Debug */,
+				3118CE401CF0E3640055159D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3118CE411CF0E3640055159D /* Build configuration list for PBXNativeTarget "CarrosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3118CE421CF0E3640055159D /* Debug */,
+				3118CE431CF0E3640055159D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3118CE441CF0E3640055159D /* Build configuration list for PBXNativeTarget "CarrosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3118CE451CF0E3640055159D /* Debug */,
+				3118CE461CF0E3640055159D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3118CE0E1CF0E3630055159D /* Project object */;
+}
